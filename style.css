@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+.container {
+   background-color: aliceblue;
+   width: 100%;
+   height: 450px;
+   border-color: rgb(50, 207, 155);
+      }
+   .content {
+      background-color: rgb(131, 125, 125);
+      width: 100%;
+      height: 80px;
+      color: aliceblue;
+     font-size: 30px;
+     position: relative;
+      }
+.left {
+    position: relative;
+    width: 50%;
+    height: 300px;
+       top: 50px;
+    left: 10px;
+    border-color: rgb(193, 230, 230);
+    border-style: solid;
+}
+.text-T {
+    background-color: burlywood;
+    font-size: 30px;
+    position: absolute;
+       width: 90%;
+    height: auto;
+    top: 20px;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+
+ }
+ .text-one {
+    background-color: coral;
+    position: absolute;
+    top: 65px;
+    left: 5%;
+    right: 5%;
+    text-indent:30px;
+    letter-spacing: 1px;
+    padding: 10px;
+ }
+ .text-two {
+    background-color: coral;
+    position: absolute;
+    top: 165px;
+    left: 5%;
+    right: 5%;
+    text-indent:30px;
+    letter-spacing: 1px;
+    padding: 10px;
+ }
+ .box {
+    position: absolute;
+    background-color: blue;
+    bottom: 10px;
+    left: 5%;
+    border-radius: 2em;
+    height: auto;
+    width: 100px;
+    text-indent:20px;
+  }
+ .right {
+   position: relative;
+    background-color: gray;
+    width: 45%;
+    height: 300px;
+    text-align: center;
+   bottom: 255px;
+   left: 54%;
+     }
+   .mian {
+      position: absolute;
+      background-color: hotpink;
+      height: 60px;
+      width: 100px;
+      top: 120px;
+      left: 40%;
+      padding: 10px;
+      
+   }
+   .box-1 {
+      position: absolute;
+      background-color: chartreuse;
+      height: 60px;
+      width: 100px;
+      top: 20px;
+      left: 40%;
+      padding: 20px;
+   }
+   .box-2 {
+      position: absolute;
+      background-color: blue;
+      height: 60px;
+      width: 100px;
+      bottom: 20px;
+      left: 40%;
+      padding: 20px;
+   }
+   .box-3 {
+      position: absolute;
+      background-color:red;
+      height: 60px;
+      width: 100px;
+      top: 70px;
+      left: 10%;
+      padding: 20px;
+   }
+   .box-4 {
+      position: absolute;
+      background-color:blueviolet;
+      height: 60px;
+      width: 100px;
+      bottom: 70px;
+      left: 10%;
+      padding: 20px;
+   }
+   .box-5 {
+      position: absolute;
+      background-color:darkmagenta;
+      height: 60px;
+      width: 100px;
+      top: 70px;
+      right: 10%;
+      padding: 20px;
+   }
+   .box-6 {
+      position: absolute;
+      background-color:gold;
+      height: 60px;
+      width: 100px;
+      bottom: 70px;
+      right: 10%;
+      padding: 20px;
+   }
